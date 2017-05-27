@@ -2,12 +2,18 @@
 <html>
 <head>
 	<title>Poo Soundboard</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#nobutton, p{
+			font-size: 20px;
+		}
+	</style>
 </head>
 <body>
 <p>
 	"Poo's cry of despair "NOOOOOOOOOOOOOOOOooooooooooo!" at 7:38 is probably the best sound that I've ever recorded" - Carl Sagan 42
 </p>
-<button id="nobutton">Nooooooooooooo!</button>
+<input type="button" id="nobutton" value="NOOOOOOOOOOOOOOOOooooooooooo!">
 <script type="text/javascript">
 	var no = new Audio("no.mp3");
 	document.getElementById('nobutton').addEventListener('click', event => {
