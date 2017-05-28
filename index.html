@@ -26,13 +26,19 @@
 	"Poo's cry of despair "NOOOOOOOOOOOOOOOOooooooooooo!" at 7:38 is probably the best sound that I've ever recorded" - Carl Sagan 42
 </p>
 <input type="button" id="nobutton" value="NOOOOOOOOOOOOOOOOooooooooooo!">
+<p>Shorter version of NOOOOOOOOOOOOOOOOooooooooooo!</p>
+<input type="button" id="no-short" value="NOOOOooooooo!">
 <hr>
 <span>Created by hiccup01. <a href="https://www.hiccup01.com">My Website</a></span>
 <script type="text/javascript">
 	var no = new Audio("no.mp3");
+	var noshort = new Audio("no-short.mp3");
 	document.getElementById('nobutton').addEventListener('click', event => {
 		no.play();
-	})
+	});
+	document.getElementById('no-short').addEventListener('click', event => {
+		noshort.play();
+	});
 </script>
 </body>
 </html>
